@@ -35,8 +35,8 @@ CREATE TABLE salaries (
 	PRIMARY KEY (emp_no)
 );
 
-CREATE TABLE dept_employees (
-	dept_no VARCHAR(4) NOT NULL,
+CREATE TABLE dept_emp (
+	dept_no VARCHAR NOT NULL,
 	emp_no INT NOT NULL,
 	from_date DATE NOT NULL,
 	to_date DATE NOT NULL,
