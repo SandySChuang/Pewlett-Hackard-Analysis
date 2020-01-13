@@ -59,7 +59,7 @@ FROM (SELECT emp_no, first_name, last_name, title, from_date, salary,
    
 ![Output2](fig2_current_title_retire.png)
 ### 3. Retiring eligible employees count by date by title
-This query returns a frequency count by employee titles, n descending order (by date).  About 80% of the retire eligible employees have "Senior Engineer" or "Senior Staff" in their titles.
+This query returns a frequency count by employee titles, in descending order (by date).  About 80% of the retire eligible employees have "Senior Engineer" or "Senior Staff" in their titles.
 
 **Code and Sample Output**
 `SELECT from_date, title, COUNT(emp_no)
